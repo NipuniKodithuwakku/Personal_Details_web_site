@@ -1,18 +1,20 @@
 body{
     margin:0;
 }
-.navigation {
-    background-color: lightblue;
+/****************NAVIGATION-BAR*****************/
+nav {
+    background-color: brown;
 }
 
-.logo,
-.menu {
+.logo,.menu {
     display: inline-block;
 }
 
 .logo {
     margin: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 15px;
 }
 
 .menu {
@@ -37,11 +39,53 @@ body{
 .menu ul li a {
     text-decoration: none;
     padding: 20px 10px;
+    color: white;
 
 }
 
 .menu ul li a:hover {
-    background-color: blue;
-    color: white;
+    background-color: lightcoral;
+    color: black;
     transition: all .5s ease;
+}
+/************HEADER***************/
+header{
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+} 
+header p{
+    margin: 0;
+    font-size: 35px;
+}
+header h1{
+    font-size: 50px;
+}
+.hero-container{
+    margin-left:100px ;
+    padding-top:100px ;
+}
+.btn-work,.btn-contact{
+    color: white;
+    padding:10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top:20px;
+    
+
+}
+
+.btn-work{
+    background-color: brown;
+}
+.btn-work:hover{
+    background-color:lightcoral ;
+    transition: all .5s ease;
+    color: black;
+    font-weight: bold;
+}
+.btn-contact{
+    background-color: #85af4b;
+    margin-left:50px ;  
 }
