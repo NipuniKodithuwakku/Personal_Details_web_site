@@ -72,8 +72,6 @@ header h1{
     border-radius: 20px;
     text-decoration: none;
     margin-top:20px;
-    
-
 }
 
 .btn-work{
@@ -88,4 +86,37 @@ header h1{
 .btn-contact{
     background-color: #85af4b;
     margin-left:50px ;  
+}
+
+
+/**********about me************/
+
+.about-me {
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+.about-me div {
+    width: 100%;
+    margin-left:5%;
+    font-size: 20px;
+    
+}
+.about-me a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #85af4b;
+    color: white;
+    border-radius: 10px;
+    margin-top: 75px;
+}
+#sub-title{
+    text-align: center;
+    color: tomato;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+#description{
+    margin-left: -5%;
+    margin-right:5%;
 }
