@@ -95,6 +95,7 @@ header h1{
     display: flex;
     flex-wrap: nowrap;
    
+   
 }
 .about-me div {
     width: 100%;
@@ -115,8 +116,53 @@ header h1{
     color: tomato;
     font-size: 35px;
     text-transform: uppercase;
+    padding-top:70px ;
+    padding-bottom:70px ;
 }
 #description{
     margin-left: -5%;
     margin-right:5%;
+}
+.example{
+    width: 100%;
+    background-color: blue;
+    height: 300px;
+    position: relative;
+
+}
+.example.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position:absolute;
+    right: 600px;
+    top: 100px;
+
+}
+/***********my skills section**********/
+.my-skills{
+    background-color: #e2e2e2;
+    padding-top:70px ;
+    padding-bottom: 70px;
+
+}
+.my-skills::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.my-skills .skill-left{
+    width: 33.3333333333%;
+    float: left;
+   overflow: hidden;
+}
+.my-skills .skill-center{
+    width: 33.3333333333%;
+    float: left;
+    overflow: hidden;
+}
+.my-skills .skill-right{
+    width: 33.3333333333%;
+    float: left;
+    overflow: hidden;
 }
